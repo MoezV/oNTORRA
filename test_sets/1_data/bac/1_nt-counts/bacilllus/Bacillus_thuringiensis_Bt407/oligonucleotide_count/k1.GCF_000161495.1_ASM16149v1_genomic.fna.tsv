@@ -1,0 +1,23 @@
+#
+# Output from 'compseq'
+#
+# The Expected frequencies are calculated from the observed single
+# base or residue frequencies in these sequences
+#
+# The input sequences are:
+#	
+
+
+Word size	1
+Total count	6026843
+
+#
+# Word	Obs Count	Obs Frequency	Exp Frequency	Obs/Exp Frequency
+#
+A	1999063		0.3316932	0.3316932	1.0000000
+C	981511		0.1628566	0.1628566	1.0000000
+G	1111458		0.1844179	0.1844179	1.0000000
+T	1916070		0.3179227	0.3179227	1.0000000
+
+Other	18741		0.0031096	0.0031096	1.0000000
+N	18741

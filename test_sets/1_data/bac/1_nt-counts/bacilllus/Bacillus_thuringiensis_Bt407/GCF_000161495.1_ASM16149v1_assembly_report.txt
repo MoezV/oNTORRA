@@ -1,0 +1,29 @@
+# Assembly name:  ASM16149v1
+# Organism name:  Bacillus thuringiensis Bt407 (firmicutes)
+# Infraspecific name:  strain=Bt407
+# Taxid:          527021
+# BioSample:      SAMN00727629
+# BioProject:     PRJNA29717
+# Submitter:      Naval Medical Research Center
+# Date:           2009-05-29
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# WGS project:    ACMZ01
+# RefSeq category: Representative Genome
+# GenBank assembly accession: GCA_000161495.1
+# RefSeq assembly accession: GCF_000161495.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000161505.1	GCF_000161505.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+ANONYMOUS	assembled-molecule	na	Chromosome	CM000747.1	=	NZ_CM000747.1	Primary Assembly	6026843	na
