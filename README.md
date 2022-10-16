@@ -5,7 +5,7 @@ An R script that is used to calculate the relative abundance values for the spec
 - Principal Component Analysis (PCA) using the kmer motif
 - Distance tree using the Neighbor-Joining algorithm.
 
-Please note that this script does __NOT__ calculate the codon signature, the _k_=3 rel. abundance and the codon signature values are different, primarily due to the codon signature having a frame shift of three (for each f(X1,Y2,Z3)) whereas this script only has a frame shift of one. For more information, please see [Karlin et. al, 1998](https://github.com/MoezV/oNTORRA/edit/main/README.md#recommended-literature).
+Please note that this script does __NOT__ calculate the codon signature, the _k_=3 rel. abundance and the codon signature values are different, primarily due to the codon signature having a frame shift of three (for each f(X1,Y2,Z3)) whereas this script only has a frame shift of one. For more information, please see [Karlin et al., 1998](https://github.com/MoezV/oNTORRA/edit/main/README.md#recommended-literature).
 
 # Requirements
 1. The oligonucleotide data must first be obtained. It is recommended to use [EMBOSS' compseq](http://emboss.open-bio.org/) ([alt link](https://emboss.bioinformatics.nl/cgi-bin/emboss/compseq)) and generate the occurrences for the word size (_k_-mer, _k_) from _k_=1 to the highest _k_-mer of interest (at least 2) ___in both the sense and anti-sense directions*___. A word size of two (_k_=2) is required to generate the genomic signature (may also be referred simply as either the compositional or dinucleotide bias).
