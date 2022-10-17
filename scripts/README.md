@@ -12,7 +12,7 @@ Another alternative is running a virtual machine with a Linux distro (such as a 
 USAGE:  01_*.bash  FASTA_FILE  [OUTPUT_DIRECTORY = oligonucleotide_count]
 ```
 
-This BASH script that goes through the goes through the given `FASTA_FILES` and runs EMBOSS' _compseq_ to obtain the nucleotide motif counts for the given word size (default is using just the forward sense for _k_=1 and both sense and antisense directions for _k_>1).
+This Bash shell script that goes through the goes through the given `FASTA_FILES` and runs EMBOSS' _compseq_ to obtain the nucleotide motif counts for the given word size (default is using just the forward sense for _k_=1 and both sense and antisense directions for _k_>1).
 The output are the _k_-mer files that starts with `[OUTPUT_DIRECTORY]/k#.___`.
 
 For the second script to run successfully, it is critcal that the output starts with `k[_k_-mer]` in the OUTPUT_DIRECTORY. If you are doing an alternative method, you can rename it to whatever you want.
@@ -26,7 +26,7 @@ It is ___critical___ that you account for both forward and reverse directions (i
 The oNTORRA script is set up such that this is not needed for _k_=1, which is accounted for easily, but requires _k_>1 to have both directions accounted (as a simple check of AA==TT, AC==GT, etc. may not be equal, especially at higher _k_ values, due to non-symmetric size - but should be close enough).
 
 ## Example
-The following is the command line invoked through the BASH script for invoking _compseq_
+The following is the command line invoked through the Bash shell script for invoking _compseq_
 ```bash
 compseq -sequence <SEQUENCE_FILE> -word <KMER> -reverse -calcfreq -outfile <OUTPUT_FILE>
 
@@ -50,7 +50,7 @@ AC	512472		0.0552036	0.0624844	0.8834791
 
 ## 02_compile-results-from-EMBOSS.bash
 
-This BASH script simply parses the _compseq_ files in to a tabular form in a tab-separated value (TSV) file that has the _k_-mer motif listed in the columns and the organisms listed in the rows.
+This Bash shell script simply parses the _compseq_ files in to a tabular form in a tab-separated value (TSV) file that has the _k_-mer motif listed in the columns and the organisms listed in the rows.
 
 To perform the alternative for this script, you will have to either make your own (such as using `python`, or a shell command like `tail -n +17 tail -n+17 <KMER_FILE>` to ignore the first 16 lines, etc.)
 Try not to do this manually, it will take too long as each _k_-mer has (4^_k_)+1 combinations (e.g. _k_=1-4 have, respectively, 5/17/65/257 combinations, including the 'Other' field).
