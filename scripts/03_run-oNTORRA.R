@@ -90,7 +90,7 @@ PCA.Function              <- "prcomp" # prcomp vs princomp
 # Depreciated. Set up so it does both regular PCA1v2 and Screen plots. # PCA.Scree_Plot            <- FALSE  # Scree plot - visualized eigenvalues
 
 options.Output_NJ_Tree    <- TRUE   # Print the tree based on the Delta/Diff. Rel. Abund.
-                                    # Note that a *.phb (bootstrapped PHYLIP tree) is generated regardless of the image type selected
+                                    # Note that a *.phb (bootstrapped Newick tree) is generated regardless of the image type selected
 Tree.Image_Output         <- ""     # Leave blank to disable secondary plot output. Options: bmp*, jpeg*, pdf+, png*, svg+, tiff*. * = Bitmap images (recommended: PDF), + = vector images (recommended: SVG). Other alternatives: cairo_pdf, cairo_ps
 Tree.Root_To              <- ""     # Row name of what to root to (leave blank for unrooted)
 Tree.Bootstrap            <- 1000   # The number of bootstraps needed
@@ -1031,7 +1031,7 @@ if(options.Output_NJ_Tree==TRUE){
   cat("::: Plotting Neighbour-Joining Tree using the Absolute Difference (Delta) Relative Abundance values between the different organisms :::\n")
   startTime = Sys.time()
 
-  # Preparing Tree image output (PHYLIP bootstrap is done separately)
+  # Preparing Tree image output (Newick bootstrap is done separately)
   if(Tree.Image_Output!=""){
     if(Tree.Image_Output=="pdf"||Tree.Image_Output=="svg"){
       PCA.Width  = round(PCA.Width/Pixels_Per_Inch)  # Since PCA is done, we are reusing the same variable for the Tree (if defined to output an image)
