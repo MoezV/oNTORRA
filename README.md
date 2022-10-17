@@ -1,4 +1,4 @@
-# oNTORRA: OligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R
+# oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R
 An R script that is used to calculate the relative abundance values for the specified oligonucleotide kmers and plots the data in several ways:
 - Heatmap of the _k_-mer motifs
 - Heatmap of the absolute difference (delta) of the averaged relative abundance between several organisms
@@ -61,7 +61,7 @@ If you use this script in your project, please cite this repository and note any
 
 There are several ways to cite a GitHub repository, which depends on the journals you are submitting to, but most follow a similar trend as the following:
 ```
-Valliani, Moez. 2022. oNTORRA: OligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
+Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
 ```
 
 It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
