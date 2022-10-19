@@ -1,4 +1,4 @@
-# oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R
+# oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R
 An R script that is used to calculate the relative abundance values for the specified oligonucleotide kmers and plots the data in several ways:
 - Heatmap of the _k_-mer motifs
 - Heatmap of the absolute difference (delta) of the averaged relative abundance between several organisms
@@ -61,7 +61,41 @@ If you use this script in your project, please cite this repository and note any
 
 There are several ways to cite a GitHub repository, which depends on the journals you are submitting to, but most follow a similar trend as the following:
 ```
-Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance), version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
+Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
+```
+
+RIS citation
+```
+TY  - COMP
+TI  - oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis
+AU  - Valliani, Moez
+AB  - OligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis.
+
+Calculates the relative abundance values and plots the data using heatmaps, PCA analysis, and a distance tree.
+DA  - 2022/10/17
+PY  - 2022
+ET  - 0.1.10-R
+LA  - R
+ST  - oNTORRA
+UR  - https://github.com/MoezV/oNTORRA
+ER  - 
+```
+
+BibLaTex citation
+```
+@software{valliani_ontorra,
+	title = {{oNTORRA}: {oligoNucleoTide} {Odds} {Ratio} ({Relative} {Abundance}) compositional bias analysis},
+	copyright = {GNU GPL v3.0},
+	shorttitle = {{oNTORRA}},
+	url = {https://github.com/MoezV/oNTORRA},
+	version = {0.1.10-R},
+	abstract = {OligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis.
+
+Calculates the relative abundance values and plots the data using heatmaps, PCA analysis, and a distance tree.},
+	author = {Valliani, Moez},
+	month = oct,
+	year = {2022},
+}
 ```
 
 It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
