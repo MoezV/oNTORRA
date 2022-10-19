@@ -64,6 +64,8 @@ There are several ways to cite a GitHub repository, which depends on the journal
 Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
 ```
 
+It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
+
 RIS citation
 ```
 TY  - COMP
@@ -97,5 +99,3 @@ Calculates the relative abundance values and plots the data using heatmaps, PCA 
 	year = {2022},
 }
 ```
-
-It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
