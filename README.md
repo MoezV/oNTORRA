@@ -59,12 +59,9 @@ For more information in regards to the compositional/nucleotide bias analyses, h
 # Citation
 If you use this script in your project, please cite this repository and note any major modifications (if applicable) that were made.
 
-There are several ways to cite a GitHub repository, which depends on the journals you are submitting to, but most follow a similar trend as the following:
-```
-Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
-```
+There are several ways to cite a GitHub repository, which depends on the journals you are submitting to. It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
 
-It is highly recommended you use a [Referencing Software](https://en.wikipedia.org/wiki/Reference_software) if you are writing a manuscript as it makes the citation process much easier. 
+A few common citation format:
 
 RIS citation
 ```
@@ -98,4 +95,9 @@ Calculates the relative abundance values and plots the data using heatmaps, PCA 
 	month = oct,
 	year = {2022},
 }
+```
+
+General style citation
+```
+Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
 ```
