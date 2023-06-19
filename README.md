@@ -1,8 +1,9 @@
 # oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis
 [![DOI](https://zenodo.org/badge/552461524.svg)](https://zenodo.org/badge/latestdoi/552461524)
-![Static Badge](https://img.shields.io/badge/Date-2022–10–17-silver)
-![Static Badge](https://img.shields.io/badge/Release-0.1.10–R-f2b400)
 ![Static Badge](https://img.shields.io/badge/Stage-Beta-gold)
+![Static Badge](https://img.shields.io/badge/Release-0.1.10–R-f2b400)
+![Static Badge](https://img.shields.io/badge/Updated-2022–10–17-silver)
+![Static Badge](https://img.shields.io/badge/-R_script-blue?logo=R)
 
 An R script that is used to calculate the relative abundance values for the specified oligonucleotide kmers and plots the data in several ways:
 - Heatmap of the _k_-mer motifs
