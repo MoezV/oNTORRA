@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Valliani"
+  given-names: "Moez"
+  orcid: "https://orcid.org/0000-0002-5533-2681"
+title: "oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis"
+version: "0.1.10-R"
+doi: 10.5281/zenodo.8056684
+date-released: 2022-08-17
+url: "https://github.com/MoezV/oNTORRA"
