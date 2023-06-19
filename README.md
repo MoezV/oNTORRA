@@ -1,4 +1,6 @@
 # oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R
+[![DOI](https://zenodo.org/badge/552461524.svg)](https://zenodo.org/badge/latestdoi/552461524)
+
 An R script that is used to calculate the relative abundance values for the specified oligonucleotide kmers and plots the data in several ways:
 - Heatmap of the _k_-mer motifs
 - Heatmap of the absolute difference (delta) of the averaged relative abundance between several organisms
@@ -76,6 +78,7 @@ PY  - 2022
 ET  - 0.1.10-R
 LA  - R
 ST  - oNTORRA
+DO  - 10.5281/zenodo.8056684
 UR  - https://github.com/MoezV/oNTORRA
 ER  - 
 ```
@@ -88,6 +91,7 @@ BibLaTex citation
 	shorttitle = {{oNTORRA}},
 	url = {https://github.com/MoezV/oNTORRA},
 	version = {0.1.10-R},
+	doi = {10.5281/zenodo.8056684},
 	abstract = {OligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis.
 
 Calculates the relative abundance values and plots the data using heatmaps, PCA analysis, and a distance tree.},
@@ -99,5 +103,5 @@ Calculates the relative abundance values and plots the data using heatmaps, PCA 
 
 General style citation
 ```
-Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. Date accessed: [date you obtained this repo]
+Valliani, Moez. 2022. oNTORRA: oligoNucleoTide Odds Ratio (Relative Abundance) compositional bias analysis, version 0.1.10-R. https://github.com/MoezV/oNTORRA. DOI: 10.5281/zenodo.8056684. Date accessed: [date you obtained this repo]
 ```
